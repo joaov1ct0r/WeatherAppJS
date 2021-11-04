@@ -1,0 +1,50 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(15, 77, 170);
+}
+#weatherContainer {
+    display: block;
+    max-width: 300px;
+    height: 400px;
+    margin: 5% auto auto auto;
+    background-color: white;
+    border-radius: 10px;
+}
+#weatherContainer h1 {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(9, 32, 82);
+}
+#weatherContainer #weatherIcon {
+    display: block;
+    height: 40%;
+    width: 150px;
+    margin: auto;
+    padding-top: 5%;
+}
+#weatherTemperature {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(9, 32, 82);
+}
+#weatherDescription {
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(9, 32, 82);
+}
+#userLocation {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(9, 32, 82);
+}
